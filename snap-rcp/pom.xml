@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.esa.snap</groupId>
         <artifactId>snap-desktop</artifactId>
-        <version>13.0.2-SNAPSHOT</version>
+        <version>13.0.1.1</version>
     </parent>
 
     <artifactId>snap-rcp</artifactId>
@@ -267,6 +267,7 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>snap-ui</artifactId>
+            <version>13.0.1.1</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>

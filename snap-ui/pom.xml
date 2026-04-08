@@ -20,7 +20,7 @@
     <parent>
         <groupId>org.esa.snap</groupId>
         <artifactId>snap-desktop</artifactId>
-        <version>13.0.2-SNAPSHOT</version>
+        <version>13.0.1.1</version>
     </parent>
 
     <artifactId>snap-ui</artifactId>
@@ -104,12 +104,12 @@
         <dependency>
             <groupId>org.esa.snap</groupId>
             <artifactId>snap-virtual-file-system</artifactId>
-            <version>${project.version}</version>
+            <version>${snap.version}</version>
         </dependency>
         <dependency>
             <groupId>org.esa.snap</groupId>
             <artifactId>snap-virtual-file-system-ui</artifactId>
-            <version>${project.version}</version>
+            <version>${snap.version}</version>
         </dependency>
 
         <dependency>
